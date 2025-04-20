@@ -4,16 +4,6 @@ import Link from "next/link";
 const HeroBanner = () => {
 	return (
 		<div className='relative w-full h-[40rem]'>
-			{/* <video
-				className="absolute top-0 left-0 w-full h-full object-cover opacity-60"
-				muted
-				loop
-				autoPlay
-                controlsList="nofullscreen nodownload noremoteplayback"
-			>
-				<source src="copy_F29E9804-AFB7-4737-8059-CAA22EE4DF75.qt" />
-			</video> */}
-
 			<Image
 				className='absolute top-0 left-0 object-cover h-full w-full opacity-60'
 				src='/IMG_7562.jpeg'
