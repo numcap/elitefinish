@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
 	return (
-		<footer className='h-fit bg-[#1589CF] mt-10 flex gap-x-32 gap-y-10 py-10 px-20 flex-wrap transition-all'>
+		<footer className='h-fit bg-[#1589CF] mt-10 flex gap-x-32 gap-y-10 py-10 px-20 flex-wrap transition-all justify-center'>
 			<div className='flex flex-col'>
 				<p className='text-xl mb-3 border-b font-semibold'>Company</p>
 				<Link className='text-lg hover:text-gray-400 transition-all' href='/'>

@@ -23,6 +23,7 @@ export default function Home() {
 						className='h-fit rounded-2xl'
 						muted
 						loop
+						autoPlay
 						controls
 						controlsList='nofullscreen nodownload noremoteplayback'
 					>
@@ -30,12 +31,12 @@ export default function Home() {
 					</video>
 				</div>
 				<div className='flex flex-col md:flex-row items-stretch justify-center gap-10 w-full p-10'>
-					<div className='md:w-1/2 lg:w-1/3 xl:1/4 2xl:w-1/5 border rounded-4xl flex flex-col justify-center items-center gap-5 p-10 relative'>
+					<div className='md:w-1/2 lg:w-1/3 xl:1/4 2xl:w-1/5 border rounded-4xl flex flex-col justify-end items-center gap-5 p-10 relative hover:border hover:border-[#1589CF] transition-all hover:-translate-y-1'>
 						<span className='absolute font-semibold text-xl bg-[#1589CF] rotate-45 top-[3.70rem] -right-13 px-7 py-1 [clip-path:polygon(14%_0%,86%_0%,100%_100%,0%_100%)]'>
 							Most Popular Interior
 						</span>
 						<Image
-							className='w-full rounded-3xl'
+							className='w-4/5 rounded-3xl'
 							src='/IMG_0443.jpg'
 							width={144}
 							height={144}
@@ -52,15 +53,14 @@ export default function Home() {
 							dashboard, vents, etc...).
 						</p>
 						<Link
-							href='/interior'
+							href='/interior#options'
 							className='py-3 px-5 bg-[#1589CF] rounded-4xl'
 						>
 							Read More
 						</Link>
 					</div>
 					<div
-						className='md:w-1/2 lg:w-1/3 xl:1/4 2xl:w-1/5 border rounded-4xl flex flex-col justify-center items-center gap-5 p-10 relative'
-						id='washDiv'
+						className='md:w-1/2 lg:w-1/3 xl:1/4 2xl:w-1/5 border rounded-4xl flex flex-col justify-end items-center gap-5 p-10 relative hover:border hover:border-[#1589CF] transition-all hover:-translate-y-1'
 					>
 						<span className='absolute font-semibold text-xl bg-[#1589CF] rotate-45 top-[2rem] -right-[2.6rem] px-7 py-1 [clip-path:polygon(19.8%_0%,80%_0%,100%_100%,0%_100%)]'>
 							Most Popular
@@ -95,19 +95,19 @@ export default function Home() {
 						</Link>
 					</div>
 				</div>
-				<div className='sm:w-2/3 border rounded-2xl p-10 m-10'>
+				<div className='sm:w-2/3 lg:w-fit border rounded-2xl p-10 m-10'>
 					<p className='text-center text-3xl font-bold mb-10'>
 						Servicing You At Your Home in North London and Surrounding Area
 					</p>
-					<span className='flex flex-col md:flex-row gap-10 justify-center items-center'>
+					<span className='flex flex-col lg:flex-row gap-10 justify-center items-center'>
 						<Image
-							className='w-full rounded-2xl'
+							className='w-md md:w-xs rounded-2xl'
 							src='/IMG_7557.jpeg'
 							width={1380}
 							height={1506}
 							alt='Image of front of car'
 						/>
-						<ul className='text-white list-disc justify-center items-center h-fit text-xl'>
+						<ul className='text-white list-disc justify-center items-center h-fit text-xl lg:[line-height:3rem]'>
 							<li>
 								A mobile unit that brings car detailing services directly to
 								you.
