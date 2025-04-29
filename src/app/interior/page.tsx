@@ -198,9 +198,9 @@ export default function Interior() {
 						</a>
 					</div>
 				</div>
-				<p className="">Step by Step</p>
+				<p className='mt-10 text-4xl font-bold'>Step by Step</p>
 				<div className='md:w-2/3 xl:w-1/3 w-fit border rounded-2xl p-10 m-10 flex flex-col justify-center items-center gap-10'>
-					<p className='text-center md:text-3xl text-2xl font-bold -mb-5'>
+					<p className='text-center md:text-4xl text-3xl font-bold -mb-5'>
 						🧽 Cabin Care Cleaning:
 					</p>
 					<p className='sm:text-2xl text-xl -mx-5 sm:mx-0'>
@@ -254,7 +254,7 @@ export default function Interior() {
 					</p>
 				</div>
 				<div className='sm:w-2/3 xl:w-1/3 border rounded-2xl p-10 m-10 flex flex-col justify-center items-center gap-10'>
-					<p className='text-center md:text-3xl text-2xl font-bold -mb-5'>
+					<p className='text-center md:text-4xl text-3xl font-bold -mb-5'>
 						💨 Quick Cabin Care:
 					</p>
 					<p className='sm:text-2xl text-xl -mx-5 sm:mx-0'>
@@ -293,8 +293,72 @@ export default function Interior() {
 						<b>🕒 Time Required:</b> ~1 hour
 					</p>
 					<p className='sm:text-2xl text-lg text-center'>
-						<b>💵 Pricing:</b> ($40 Sedans, $50 Suv's, $70 Large Suv's & Trucks)
+						<b>💵 Pricing:</b> $40 Sedans, $50 Suv's, $70 Large Suv's & Trucks
 					</p>
+				</div>
+				<div className='flex flex-col gap-4 px-10 sm:w-1/2 sm:px-0 xl:w-1/3'>
+					<span className='text-4xl font-semibold text-center'>
+						How Can I Keep My Vehicle In Good Condition?
+					</span>
+					<span>
+						<FaCheck className='inline-block text-[#1589CF]' /> Wipe down your
+						vehicle every 2 to 4 weeks, depending on how much traffic it
+						experiences.
+					</span>
+					<span>
+						<FaCheck className='inline-block text-[#1589CF]' /> Clean spills or
+						stains on carpets or fabric seats as soon as possible for the best
+						chance of complete removal.
+					</span>
+					<span>
+						<FaCheck className='inline-block text-[#1589CF]' /> Promptly
+						cleaning carpet stains helps prevent them from sinking deep into the
+						fibers and causing lingering odors.
+					</span>
+					<span>
+						<FaCheck className='inline-block text-[#1589CF]' /> Schedule a full
+						interior detail at least once a year to reset your vehicle's
+						interior and help maintain its value.
+					</span>
+					<span>
+						<FaCheck className='inline-block text-[#1589CF]' /> A great way to
+						be able to maintain the looks of your vehicle would be our{" "}
+						<Link
+							className='underline hover:text-gray-400 transition-colors'
+							href='/maintenance'
+						>
+							Maintenance Program.
+						</Link>
+					</span>
+					<span>
+						<FaCheck className='inline-block text-[#1589CF]' /> The Maintenance
+						Program includes our exterior and interior service which is the{" "}
+						<Link
+							href='/exterior#showroom-shine'
+							className='underline hover:text-gray-400 transition-colors'
+						>
+							Showroom Shine
+						</Link>{" "}
+						and{" "}
+						<a
+							href='#quick-cabin-care'
+							className='underline hover:text-gray-400 transition-colors'
+						>
+							Quick Cabin Care.
+						</a>
+					</span>
+					<span>
+						Want your exterior looking like new?
+						<br /> Try our{" "}
+						<Link
+							className='underline hover:text-gray-400 transition-colors'
+							href='/exterior#'
+							// TODO: add header at #
+						>
+							Showroom Shine + Ceramic Sealant Service
+						</Link>
+						— a deep clean with added protection for long-lasting results!
+					</span>
 				</div>
 			</div>
 		</div>

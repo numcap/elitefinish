@@ -88,7 +88,7 @@ export default function Home() {
 							slick finish when we're done
 						</p>
 						<Link
-							href='/exterior'
+							href='/exterior#options'
 							className='py-3 px-5 bg-[#1589CF] rounded-4xl'
 						>
 							Read More
