@@ -11,7 +11,8 @@ const Navbar = () => {
 		<>
 			<nav className='sticky z-50 bg-[#0a0a0a] top-0 flex justify-center items-center p-5 px-10'>
 				<Link href="/">
-					<Image src='/icons/logo.png' width={150} height={200} alt='Logo' />
+					<Image className="hidden md:block" src='/icons/logo.png' width={150} height={200} alt='Logo' />
+					<Image className="block md:hidden w-20" src='/icons/logo_notitle.png' width={150} height={200} alt='Logo' />
 				</Link>
 				<div className='flex gap-10 grow justify-end items-center bg-highlight'>
 					<Link
@@ -92,7 +93,7 @@ const Navbar = () => {
 					width={150}
 					height={200}
 					alt='Logo'
-					className='mb-10'
+					// className='mb-4'
 				/>
 				<Link
 					className='text-xl text-brand hover:text-[#1589CF] transition-all duration-300'

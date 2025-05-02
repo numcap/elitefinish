@@ -267,7 +267,7 @@ export default function Exterior() {
 						be able to maintain the looks of your vehicle would be our{" "}
 						<Link
 							className='underline hover:text-gray-400 transition-colors'
-							href='/maintenance'
+							href='/maintenance-referrals'
 						>
 							Maintenance Program.
 						</Link>

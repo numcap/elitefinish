@@ -281,7 +281,6 @@ export default function Interior() {
 					<p className='sm:text-lg'>
 						<b>Note:</b> For deep cleaning (carpet shampooing, seat extraction,
 						door panel detailing, etc.), we recommend our{" "}
-						{/* TODO add link here */}
 						<a
 							className='underline hover:text-gray-400 transition-colors'
 							href='#cabin-care'
@@ -325,7 +324,7 @@ export default function Interior() {
 						be able to maintain the looks of your vehicle would be our{" "}
 						<Link
 							className='underline hover:text-gray-400 transition-colors'
-							href='/maintenance'
+							href='/maintenance-referrals'
 						>
 							Maintenance Program.
 						</Link>
@@ -352,8 +351,7 @@ export default function Interior() {
 						<br /> Try our{" "}
 						<Link
 							className='underline hover:text-gray-400 transition-colors'
-							href='/exterior#'
-							// TODO: add header at #
+							href='/exterior#showroom-shine-ceramic-sealant'
 						>
 							Showroom Shine + Ceramic Sealant Service
 						</Link>

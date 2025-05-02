@@ -26,7 +26,7 @@ export default function Contact() {
 					</span>
 					<span className='inline-flex gap-2 items-center'>
 						<FaPhone className='w-5 h-5' />
-						<a href='tel:4167060727'>(416) 706-0727</a>
+						<a href='sms:4167060727'>(416) 706-0727</a>
 					</span>
 					<span className='inline-flex gap-2 items-center'>
 						<FaInstagram className='w-5 h-5' />

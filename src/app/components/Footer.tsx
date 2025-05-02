@@ -18,11 +18,10 @@ const Footer = () => {
 				</Link>
 				<Link
 					className='text-lg hover:text-gray-400 transition-all'
-					href='/about-us#'
+					href='/maintenance-referrals'
 				>
 					Maintenance & Referrals
 				</Link>
-				{/* TODO: Add the header title here and below for interior */}
 				<Link
 					className='text-lg hover:text-gray-400 transition-all'
 					href='/contact'
@@ -36,13 +35,13 @@ const Footer = () => {
 				</Link>
 				<Link
 					className='text-lg hover:text-gray-400 transition-all'
-					href='/interior#'
+					href='/exterior#showroom-shine'
 				>
 					Show Room Shine
 				</Link>
 				<Link
 					className='text-lg hover:text-gray-400 transition-all'
-					href='/interior#'
+					href='/exterior#showroom-shine-ceramic-sealant'
 				>
 					+ Ceramic Sealant (Optional)
 				</Link>
@@ -53,13 +52,13 @@ const Footer = () => {
 				</Link>
 				<Link
 					className='text-lg hover:text-gray-400 transition-all'
-					href='/interior#'
+					href='/interior#cabin-care'
 				>
 					Cabin Care
 				</Link>
 				<Link
 					className='text-lg hover:text-gray-400 transition-all'
-					href='/interior#'
+					href='/interior#quick-cabin-care'
 				>
 					Quick Cabin Care
 				</Link>
@@ -74,7 +73,7 @@ const Footer = () => {
 					<a href='https://www.facebook.com/EliteFinishAuto519/'>
 						<FaFacebook className='w-8 h-8 hover:text-gray-400 transition-all cursor-pointer' />
 					</a>
-					<a href='tel:4167060727'>
+					<a href='sms:4167060727'>
 						<FaPhone className='w-8 h-8 hover:text-gray-400 transition-all cursor-pointer' />
 					</a>
 				</span>
