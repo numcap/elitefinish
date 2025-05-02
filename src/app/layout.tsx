@@ -16,32 +16,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Elite Finish Detailing",
+	title: "Elite Finish Auto",
 	description:
-		"Elite Auto Finish Detailing offers professional mobile car detailing services, including interior cleaning, exterior polishing, and paint correction across London Ontario.",
+		"Elite Finish Auto Detailing offers professional mobile car detailing services, including interior cleaning, exterior polishing, and paint correction across London Ontario.",
 	keywords: [
 		"car detailing",
 		"mobile detailing",
 		"interior cleaning",
 		"Elite Finish",
-		"Southern Ontario detailing",
+		"London Ontario detailing",
 	],
 	authors: [
 		{ name: "Elite Finish Detailing", url: "https://elitefinishauto.ca" },
 		{ name: "Jonathan Ishak", url: "https://jonathanishak.vercel.app" },
 	],
 	openGraph: {
-		title: "Elite Finish Detailing",
+		title: "Elite Finish Auto Detailing",
 		description:
 			"Mobile auto detailing service specializing in interior and exterior restoration. Serving London Ontario with professional care.",
 		url: "https://elitefinishauto.ca",
-		siteName: "Elite Finish Detailing",
+		siteName: "Elite Finish Auto Detailing",
 		images: [
 			{
 				url: "https://elitefinishauto.ca/icons/logo-bg.jpeg",
 				width: 2388,
 				height: 1610,
-				alt: "Elite Finish Detailing - Mobile Car Detailing Service",
+				alt: "Elite Finish Auto Detailing - Mobile Car Detailing Service",
 			},
 		],
 		locale: "en_CA",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Elite Finish Detailing",
+		title: "Elite Finish Auto Detailing",
 		description: "Top-rated mobile auto detailing in London Ontario.",
 		images: ["https://elitefinishauto.ca/icons/logo-bg.jpeg"],
 		site: "@elitefinishauto",
