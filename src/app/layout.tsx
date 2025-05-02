@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		siteName: "Elite Finish Detailing",
 		images: [
 			{
-				url: "https://elitefinishauto.ca/icons/logo.png",
+				url: "https://elitefinishauto.ca/icons/logo-bg.jpeg",
 				width: 2388,
 				height: 1610,
 				alt: "Elite Finish Detailing - Mobile Car Detailing Service",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		title: "Elite Finish Detailing",
 		description: "Top-rated mobile auto detailing in London Ontario.",
-		images: ["https://elitefinishauto.ca/icons/logo.png"],
+		images: ["https://elitefinishauto.ca/icons/logo-bg.jpeg"],
 		site: "@elitefinishauto",
 		creator: "@elitefinishauto",
 	},
