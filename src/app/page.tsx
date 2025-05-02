@@ -23,7 +23,6 @@ export default function Home() {
 						className='h-fit rounded-2xl'
 						muted
 						loop
-						autoPlay
 						controls
 						controlsList='nofullscreen nodownload noremoteplayback'
 					>
