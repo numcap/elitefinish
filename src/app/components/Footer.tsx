@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SiInstagram } from "react-icons/si";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
 	return (
@@ -20,7 +20,7 @@ const Footer = () => {
 					className='text-lg hover:text-gray-400 transition-all'
 					href='/about-us#'
 				>
-					Detailing FAQs
+					Maintenance & Referrals
 				</Link>
 				{/* TODO: Add the header title here and below for interior */}
 				<Link
@@ -71,7 +71,12 @@ const Footer = () => {
 					<a href='https://www.instagram.com/elitefinishauto519/'>
 						<SiInstagram className='w-8 h-8 hover:text-gray-400 transition-all' />
 					</a>
-					<FaFacebook className='w-8 h-8 hover:text-gray-400 transition-all' />
+					<a href='https://www.facebook.com/EliteFinishAuto519/'>
+						<FaFacebook className='w-8 h-8 hover:text-gray-400 transition-all cursor-pointer' />
+					</a>
+					<a href='tel:4167060727'>
+						<FaPhone className='w-8 h-8 hover:text-gray-400 transition-all cursor-pointer' />
+					</a>
 				</span>
 			</div>
 		</footer>

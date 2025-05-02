@@ -7,7 +7,7 @@ export default function Interior() {
 		<div>
 			<div className='relative flex flex-col h-[40rem]'>
 				<Image
-					src='/IMG_0446.jpg'
+					src='/interior.jpg'
 					width={933}
 					height={826}
 					alt='before and after of backseats'
@@ -293,7 +293,7 @@ export default function Interior() {
 						<b>🕒 Time Required:</b> ~1 hour
 					</p>
 					<p className='sm:text-2xl text-lg text-center'>
-						<b>💵 Pricing:</b> $40 Sedans, $50 Suv's, $70 Large Suv's & Trucks
+						<b>💵 Pricing:</b> $40 Sedans, $50 SUVs, $70 Large SUVs & Trucks
 					</p>
 				</div>
 				<div className='flex flex-col gap-4 px-10 sm:w-1/2 sm:px-0 xl:w-1/3'>

@@ -291,9 +291,15 @@ export default function Exterior() {
 					</span>
 					<span>
 						If you like a thorough cleaning on the interior of your vehicle for
-						a complete transformation, then you can check out our Cabin Care
-						Cleaning Service. <br /> This a great service to cleaning everything
-						in your interior to the best condition possible.
+						a complete transformation, then you can check out our{" "}
+						<Link
+							href='/interior#cabin-care'
+							className='underline hover:text-gray-400 transition-colors'
+						>
+							Cabin Care Cleaning Service.
+						</Link>
+						<br /> This a great service to cleaning everything in your interior
+						to the best condition possible.
 					</span>
 				</div>
 			</div>

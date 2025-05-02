@@ -10,19 +10,19 @@ const Navbar = () => {
 	return (
 		<>
 			<nav className='sticky z-50 bg-[#0a0a0a] top-0 flex justify-center items-center p-5 px-10'>
-				<Link href='/'>
+				<Link href="/">
 					<Image src='/icons/logo.png' width={150} height={200} alt='Logo' />
 				</Link>
 				<div className='flex gap-10 grow justify-end items-center bg-highlight'>
 					<Link
-						className='text-xl text-brand hover:text-[#1589CF] hidden lg:block transition-all duration-300'
+						className='text-xl text-brand hover:text-[#1589CF] hidden xl:block transition-all duration-300'
 						href='/'
 					>
 						Home
 					</Link>
 					<span className='group relative'>
 						<Link
-							className='text-xl hover:text-[#1589CF] hidden lg:block transition-all duration-300 group'
+							className='text-xl hover:text-[#1589CF] hidden xl:block transition-all duration-300 group'
 							href='/interior'
 						>
 							Interior
@@ -45,37 +45,43 @@ const Navbar = () => {
 						</span>
 					</span>
 					<Link
-						className='text-xl hover:text-[#1589CF] hidden lg:block transition-all duration-300'
+						className='text-xl hover:text-[#1589CF] hidden xl:block transition-all duration-300'
 						href='/exterior'
 					>
 						Exterior
 					</Link>
 					<Link
-						className='text-xl hover:text-[#1589CF] hidden lg:block transition-all duration-300'
+						className='text-xl hover:text-[#1589CF] hidden xl:block transition-all duration-300'
 						href='/gallery'
 					>
 						Gallery
 					</Link>
 					<Link
-						className='text-xl hover:text-[#1589CF] hidden lg:block transition-all duration-300'
+						className='text-xl hover:text-[#1589CF] hidden xl:block transition-all duration-300'
 						href='/about-us'
 					>
 						About Us
 					</Link>
 					<Link
-						className='text-xl bg-[#1589CF] p-2 rounded-2xl hidden lg:block transition-all duration-300'
+						className='text-xl hover:text-[#1589CF] hidden xl:block transition-all duration-300'
+						href='/maintenance-referrals'
+					>
+						Maintenance & Referrals
+					</Link>
+					<Link
+						className='text-xl bg-[#1589CF] p-2 rounded-2xl hidden xl:block transition-all duration-300'
 						href='/contact'
 					>
 						Contact Us
 					</Link>
 					<RxHamburgerMenu
 						onClick={() => setHamburgerModal(!hamburgerModal)}
-						className='block lg:hidden w-8 h-8'
+						className='block xl:hidden w-8 h-8 cursor-pointer'
 					/>
 				</div>
 			</nav>
 			<div
-				className={`fixed top-0 left-0 h-screen w-screen z-50 flex flex-col justify-center items-center gap-5 bg-black transition-all duration-500 ease-in-out transform ${
+				className={`fixed top-0 left-0 h-screen w-screen z-50 flex flex-col justify-center items-center gap-5 bg-[#0a0a0a] transition-all duration-500 ease-in-out transform ${
 					hamburgerModal
 						? "opacity-100 translate-y-0"
 						: "opacity-0 translate-y-10 pointer-events-none"
@@ -95,13 +101,13 @@ const Navbar = () => {
 				>
 					Home
 				</Link>
-					<Link
-						className='text-xl hover:text-[#1589CF] transition-all duration-300 group'
-						href='/interior'
-						onClick={() => setHamburgerModal(!hamburgerModal)}
-					>
-						Interior
-					</Link>
+				<Link
+					className='text-xl hover:text-[#1589CF] transition-all duration-300 group'
+					href='/interior'
+					onClick={() => setHamburgerModal(!hamburgerModal)}
+				>
+					Interior
+				</Link>
 				<Link
 					className='text-xl hover:text-[#1589CF] transition-all duration-300'
 					href='/exterior'
@@ -115,6 +121,13 @@ const Navbar = () => {
 					onClick={() => setHamburgerModal(!hamburgerModal)}
 				>
 					Gallery
+				</Link>
+				<Link
+					className='text-xl hover:text-[#1589CF] transition-all duration-300 text-center'
+					href='/maintenance-referrals'
+					onClick={() => setHamburgerModal(!hamburgerModal)}
+				>
+					Maintenance & <br /> Referrals
 				</Link>
 				<Link
 					className='text-xl hover:text-[#1589CF] transition-all duration-300'
