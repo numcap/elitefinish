@@ -237,7 +237,6 @@ export default function Interior() {
 					<p className='sm:text-lg'>
 						<b>Note:</b> This is a full restoration service, not a maintenance
 						wipe-down. For regular upkeep, check out our{" "}
-						{/* TODO add link here */}
 						<a
 							className='underline hover:text-gray-400 transition-colors'
 							href='#quick-cabin-care'

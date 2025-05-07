@@ -66,10 +66,10 @@ export default function Home() {
 						</span>
 						<Image
 							className='w-full rounded-3xl'
-							src='/IMG_7562.jpeg'
+							src='/IMG_7762.jpg'
 							width={144}
 							height={144}
-							alt='Before and after of a interior clean'
+							alt='Image of front of car'
 						/>
 						<p className='text-3xl text-center font-bold'>
 							Show Room Shine <br />

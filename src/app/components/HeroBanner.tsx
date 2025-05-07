@@ -6,7 +6,7 @@ const HeroBanner = () => {
 		<div className='relative w-full h-[40rem]'>
 			<Image
 				className='absolute top-0 left-0 object-cover h-full w-full opacity-60'
-				src='/IMG_7562.jpeg'
+				src='/IMG_7763.jpg'
 				alt='Photo'
 				width={1656}
 				height={813}

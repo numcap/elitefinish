@@ -7,7 +7,7 @@ export default function Exterior() {
 		<div>
 			<div className='relative flex flex-col h-[40rem]'>
 				<Image
-					src='/IMG_0437.jpg'
+					src='/IMG_0458.jpg'
 					width={933}
 					height={826}
 					alt='before and after of backseats'
@@ -211,6 +211,15 @@ export default function Exterior() {
 						sealant to all painted surfaces to provide shine and protection
 					</p>
 					{/* TODO: add video here */}
+					<video
+						className='h-fit rounded-2xl'
+						muted
+						loop
+						controls
+						controlsList='nofullscreen nodownload noremoteplayback'
+					>
+						<source src='My Movie 5.mov' />
+					</video>
 					<p className='-mb-6 sm:text-2xl text-lg text-center'>
 						<b>🕒 Time Required:</b> ~1.5 hours
 					</p>
