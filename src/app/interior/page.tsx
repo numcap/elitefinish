@@ -132,11 +132,11 @@ export default function Interior() {
 								Large SUVs & Trucks
 							</span>
 							<span className='border-r-2 border-l-2 h-full flex justify-center items-center'>
-								$105
+								$110
 							</span>
-							<span>$115</span>
+							<span>$130</span>
 							<span className='border-r-2 border-l-2 h-full flex justify-center items-center'>
-								$135
+								$150
 							</span>
 						</div>
 						<p className='text-sm'>
