@@ -148,11 +148,11 @@ export default function Exterior() {
 								Large SUVs & Trucks
 							</span>
 							<span className='border-r-2 border-l-2 h-full flex justify-center items-center'>
-								$85
+								$90
 							</span>
-							<span>$95</span>
+							<span>$100</span>
 							<span className='border-r-2 border-l-2 h-full flex justify-center items-center'>
-								$115
+								$120
 							</span>
 						</div>
 						<span className='flex flex-col gap-2'>
@@ -224,7 +224,7 @@ export default function Exterior() {
 						<b>🕒 Time Required:</b> ~1.5 hours
 					</p>
 					<p id='showroom-shine' className='sm:text-2xl text-lg text-center'>
-						<b>💵 Pricing:</b> $85 Sedans $95 SUVs $115 Large SUVs & Trucks
+						<b>💵 Pricing:</b> $90 Sedans $100 SUVs $120 Large SUVs & Trucks
 					</p>
 				</div>
 				<div className='md:w-2/3 xl:w-1/3 w-fit border rounded-2xl p-10 m-10 flex flex-col justify-center items-center gap-10'>
