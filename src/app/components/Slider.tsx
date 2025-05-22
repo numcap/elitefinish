@@ -3,15 +3,13 @@
 import Image from "next/image";
 import { useState } from "react";
 
-export const Slider = (
-    {
+export const Slider = ({
 	beforeImage,
 	afterImage,
 }: {
 	beforeImage: string;
 	afterImage: string;
-}
-) => {
+}) => {
 	const [sliderPosition, setSliderPosition] = useState(50);
 	const [isDragging, setIsDragging] = useState(false);
 
@@ -50,6 +48,7 @@ export const Slider = (
 
 	return (
 		<div
+		// TODO ask if border should be border-2 or not
 			className='w-full h-full relative border rounded-2xl'
 			onMouseUp={handleMouseUp}
 		>

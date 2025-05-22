@@ -73,7 +73,7 @@ export default function Home() {
 						/>
 						<p className='text-3xl text-center font-bold'>
 							Show Room Shine <br />
-							<span className="text-xl font-semibold">+ Ceramic Sealant ($25)</span>
+							<span className="text-xl font-semibold">+ Ceramic Sealant ($30)</span>
 						</p>
 						<p>
 							Has it been a while since your car was coated? Or maybe you just
