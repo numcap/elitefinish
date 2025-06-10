@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.elitefinishauto.ca
+
+# Sitemaps
+Sitemap: https://www.elitefinishauto.ca/sitemap.xml

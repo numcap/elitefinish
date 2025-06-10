@@ -1,3 +1,4 @@
+import CanonicalHead from "../components/CanonicalHead";
 import { Slider } from "../components/Slider";
 
 export default function Gallery() {
@@ -19,6 +20,8 @@ export default function Gallery() {
 	];
 
 	return (
+		<>
+		<CanonicalHead />
 		<div className='flex flex-col justify-center items-center p-5 gap-8'>
 			<p className='text-5xl font-bold'>Gallery</p>
 			<div className='flex w-full h-full flex-wrap justify-center items-center gap-10'>
@@ -33,5 +36,6 @@ export default function Gallery() {
 				))}
 			</div>
 		</div>
+		</>
 	);
 }
