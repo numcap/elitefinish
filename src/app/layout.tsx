@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title:
-		"Elite Finish Auto Detailing | Mobile Car Detailing in London, Ontario",
+		"Elite Finish Auto | Mobile Car Detailing in London, Ontario",
 	description:
-		"Elite Finish Auto Detailing offers professional mobile car detailing services, including interior cleaning, exterior polishing, and paint correction across London Ontario.",
+		"Elite Finish Auto offers professional mobile car detailing services, (interior cleaning, exterior polishing, and paint correction) across London Ontario.",
 	keywords: [
 		"car detailing",
 		"mobile detailing",

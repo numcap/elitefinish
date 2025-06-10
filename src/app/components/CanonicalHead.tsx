@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Head from "next/head";
 import { usePathname } from "next/navigation";
@@ -15,4 +15,4 @@ const CanonicalHead = () => {
 	);
 };
 
-export default CanonicalHead
+export default CanonicalHead;
