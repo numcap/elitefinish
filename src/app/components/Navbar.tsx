@@ -63,12 +63,12 @@ const Navbar = () => {
 					>
 						About Us
 					</Link>
-					<Link
+					{/* <Link
 						className='text-xl hover:text-[#1589CF] hidden xl:block transition-all duration-300'
 						href='/maintenance-referrals'
 					>
 						Maintenance & Referrals
-					</Link>
+					</Link> */}
 					<Link
 						className='text-xl bg-[#1589CF] p-2 rounded-2xl hidden xl:block transition-all duration-300'
 						href='/contact'
@@ -123,13 +123,13 @@ const Navbar = () => {
 				>
 					Gallery
 				</Link>
-				<Link
+				{/* <Link
 					className='text-xl hover:text-[#1589CF] transition-all duration-300 text-center'
 					href='/maintenance-referrals'
 					onClick={() => setHamburgerModal(!hamburgerModal)}
 				>
 					Maintenance & <br /> Referrals
-				</Link>
+				</Link> */}
 				<Link
 					className='text-xl hover:text-[#1589CF] transition-all duration-300'
 					href='/about-us'
